@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE71289915CF0D15003A5B27 /* FadeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE71289815CF0D15003A5B27 /* FadeLayer.m */; };
 		CEB8461D15CEE07000FAC3F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB8461C15CEE07000FAC3F4 /* UIKit.framework */; };
 		CEB8461F15CEE07000FAC3F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB8461E15CEE07000FAC3F4 /* Foundation.framework */; };
 		CEB8462115CEE07000FAC3F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB8462015CEE07000FAC3F4 /* CoreGraphics.framework */; };
@@ -15,22 +16,41 @@
 		CEB8462D15CEE07000FAC3F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB8462C15CEE07000FAC3F4 /* AppDelegate.m */; };
 		CEB8463015CEE07000FAC3F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB8462F15CEE07000FAC3F4 /* ViewController.m */; };
 		CEB8463315CEE07000FAC3F4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB8463115CEE07000FAC3F4 /* ViewController.xib */; };
+		CEB8463A15CEE2C700FAC3F4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB8463915CEE2C700FAC3F4 /* QuartzCore.framework */; };
+		CEB8463D15CEE37700FAC3F4 /* FadeAnimView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB8463C15CEE37700FAC3F4 /* FadeAnimView.m */; };
+		CEB8464515CEE64100FAC3F4 /* winter_dog_1_closed_eyes.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB8463F15CEE64100FAC3F4 /* winter_dog_1_closed_eyes.png */; };
+		CEB8464615CEE64100FAC3F4 /* winter_dog_1_closed_eyes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB8464015CEE64100FAC3F4 /* winter_dog_1_closed_eyes@2x.png */; };
+		CEB8464715CEE64100FAC3F4 /* winter_dog_1.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB8464115CEE64100FAC3F4 /* winter_dog_1.png */; };
+		CEB8464815CEE64100FAC3F4 /* winter_dog_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB8464215CEE64100FAC3F4 /* winter_dog_1@2x.png */; };
+		CEB8464915CEE64100FAC3F4 /* winter_dog_2.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB8464315CEE64100FAC3F4 /* winter_dog_2.png */; };
+		CEB8464A15CEE64100FAC3F4 /* winter_dog_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEB8464415CEE64100FAC3F4 /* winter_dog_2@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE71289715CF0D15003A5B27 /* FadeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeLayer.h; sourceTree = "<group>"; };
+		CE71289815CF0D15003A5B27 /* FadeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeLayer.m; sourceTree = "<group>"; };
 		CEB8461815CEE07000FAC3F4 /* FadeAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FadeAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB8461C15CEE07000FAC3F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEB8461E15CEE07000FAC3F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEB8462015CEE07000FAC3F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CEB8462415CEE07000FAC3F4 /* FadeAnimation-Info.plist */ = {isa = PBXFileReference; path = "FadeAnimation-Info.plist"; sourceTree = "<group>"; };
+		CEB8462415CEE07000FAC3F4 /* FadeAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FadeAnimation-Info.plist"; sourceTree = "<group>"; };
 		CEB8462615CEE07000FAC3F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEB8462815CEE07000FAC3F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CEB8462A15CEE07000FAC3F4 /* FadeAnimation-Prefix.pch */ = {isa = PBXFileReference; path = "FadeAnimation-Prefix.pch"; sourceTree = "<group>"; };
-		CEB8462B15CEE07000FAC3F4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEB8462A15CEE07000FAC3F4 /* FadeAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FadeAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		CEB8462B15CEE07000FAC3F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEB8462C15CEE07000FAC3F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CEB8462E15CEE07000FAC3F4 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CEB8462E15CEE07000FAC3F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CEB8462F15CEE07000FAC3F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CEB8463215CEE07000FAC3F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CEB8463915CEE2C700FAC3F4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CEB8463B15CEE37700FAC3F4 /* FadeAnimView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeAnimView.h; sourceTree = "<group>"; };
+		CEB8463C15CEE37700FAC3F4 /* FadeAnimView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeAnimView.m; sourceTree = "<group>"; };
+		CEB8463F15CEE64100FAC3F4 /* winter_dog_1_closed_eyes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = winter_dog_1_closed_eyes.png; path = Images/winter_dog_1_closed_eyes.png; sourceTree = "<group>"; };
+		CEB8464015CEE64100FAC3F4 /* winter_dog_1_closed_eyes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "winter_dog_1_closed_eyes@2x.png"; path = "Images/winter_dog_1_closed_eyes@2x.png"; sourceTree = "<group>"; };
+		CEB8464115CEE64100FAC3F4 /* winter_dog_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = winter_dog_1.png; path = Images/winter_dog_1.png; sourceTree = "<group>"; };
+		CEB8464215CEE64100FAC3F4 /* winter_dog_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "winter_dog_1@2x.png"; path = "Images/winter_dog_1@2x.png"; sourceTree = "<group>"; };
+		CEB8464315CEE64100FAC3F4 /* winter_dog_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = winter_dog_2.png; path = Images/winter_dog_2.png; sourceTree = "<group>"; };
+		CEB8464415CEE64100FAC3F4 /* winter_dog_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "winter_dog_2@2x.png"; path = "Images/winter_dog_2@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB8463A15CEE2C700FAC3F4 /* QuartzCore.framework in Frameworks */,
 				CEB8461D15CEE07000FAC3F4 /* UIKit.framework in Frameworks */,
 				CEB8461F15CEE07000FAC3F4 /* Foundation.framework in Frameworks */,
 				CEB8462115CEE07000FAC3F4 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +88,7 @@
 		CEB8461B15CEE07000FAC3F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEB8463915CEE2C700FAC3F4 /* QuartzCore.framework */,
 				CEB8461C15CEE07000FAC3F4 /* UIKit.framework */,
 				CEB8461E15CEE07000FAC3F4 /* Foundation.framework */,
 				CEB8462015CEE07000FAC3F4 /* CoreGraphics.framework */,
@@ -77,12 +99,17 @@
 		CEB8462215CEE07000FAC3F4 /* FadeAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				CEB8463E15CEE62E00FAC3F4 /* Images */,
 				CEB8462B15CEE07000FAC3F4 /* AppDelegate.h */,
 				CEB8462C15CEE07000FAC3F4 /* AppDelegate.m */,
 				CEB8462E15CEE07000FAC3F4 /* ViewController.h */,
 				CEB8462F15CEE07000FAC3F4 /* ViewController.m */,
 				CEB8463115CEE07000FAC3F4 /* ViewController.xib */,
 				CEB8462315CEE07000FAC3F4 /* Supporting Files */,
+				CEB8463B15CEE37700FAC3F4 /* FadeAnimView.h */,
+				CEB8463C15CEE37700FAC3F4 /* FadeAnimView.m */,
+				CE71289715CF0D15003A5B27 /* FadeLayer.h */,
+				CE71289815CF0D15003A5B27 /* FadeLayer.m */,
 			);
 			path = FadeAnimation;
 			sourceTree = "<group>";
@@ -96,6 +123,19 @@
 				CEB8462A15CEE07000FAC3F4 /* FadeAnimation-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEB8463E15CEE62E00FAC3F4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CEB8463F15CEE64100FAC3F4 /* winter_dog_1_closed_eyes.png */,
+				CEB8464015CEE64100FAC3F4 /* winter_dog_1_closed_eyes@2x.png */,
+				CEB8464115CEE64100FAC3F4 /* winter_dog_1.png */,
+				CEB8464215CEE64100FAC3F4 /* winter_dog_1@2x.png */,
+				CEB8464315CEE64100FAC3F4 /* winter_dog_2.png */,
+				CEB8464415CEE64100FAC3F4 /* winter_dog_2@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +190,12 @@
 			files = (
 				CEB8462715CEE07000FAC3F4 /* InfoPlist.strings in Resources */,
 				CEB8463315CEE07000FAC3F4 /* ViewController.xib in Resources */,
+				CEB8464515CEE64100FAC3F4 /* winter_dog_1_closed_eyes.png in Resources */,
+				CEB8464615CEE64100FAC3F4 /* winter_dog_1_closed_eyes@2x.png in Resources */,
+				CEB8464715CEE64100FAC3F4 /* winter_dog_1.png in Resources */,
+				CEB8464815CEE64100FAC3F4 /* winter_dog_1@2x.png in Resources */,
+				CEB8464915CEE64100FAC3F4 /* winter_dog_2.png in Resources */,
+				CEB8464A15CEE64100FAC3F4 /* winter_dog_2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +209,8 @@
 				CEB8462915CEE07000FAC3F4 /* main.m in Sources */,
 				CEB8462D15CEE07000FAC3F4 /* AppDelegate.m in Sources */,
 				CEB8463015CEE07000FAC3F4 /* ViewController.m in Sources */,
+				CEB8463D15CEE37700FAC3F4 /* FadeAnimView.m in Sources */,
+				CE71289915CF0D15003A5B27 /* FadeLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +285,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FadeAnimation/FadeAnimation-Prefix.pch";
 				INFOPLIST_FILE = "FadeAnimation/FadeAnimation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -248,7 +298,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FadeAnimation/FadeAnimation-Prefix.pch";
 				INFOPLIST_FILE = "FadeAnimation/FadeAnimation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -272,6 +324,7 @@
 				CEB8463815CEE07000FAC3F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
